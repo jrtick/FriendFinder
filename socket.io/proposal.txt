@@ -1,0 +1,19 @@
+Project Title: Friend Finder
+Project Domain: http://friendfinder.nodejs.love
+Name: Jordan Tick (jrtick)
+Email: jrtick@andrew.cmu.edu
+Details:
+  1) You create an account with a username and password.
+  2) You can see all members and add whichever as friends.
+  3) Once you log in, you see a google maps of the area that shows
+       whichever of your friends are currently logged in.
+  4) You get an alert if someone is within 1/4 mile of you.
+  5) If time permits, I'll add in the ability to chat with whoever is
+      within a 1/4 mile of you!
+
+  ** Steps 4 and 5 would use socket.io. Step 3 would just use google api
+       to retrieve map and coordinates
+  ** I will try to make this mobile browser friendly
+
+
+Google API key: AIzaSyDAIwGZb-8NWdKUDeM2wB2QjhQn68QHV1o
