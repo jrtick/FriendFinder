@@ -57,7 +57,7 @@ app.post("/newUser",function(req,res){
     contacts = {};
     for(username in users){
       usr = users[username];
-      contacts[username] = {name:usr.name,online:usr.online,location:user.location};
+      contacts[username] = {name:usr.name,online:usr.online,location:usr.location};
     }
     console.log(contacts);
     console.log(JSON.stringify(contacts));
